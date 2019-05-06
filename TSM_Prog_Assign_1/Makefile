@@ -9,4 +9,4 @@ default: cc
 .ONESHELL:
 cc compile:
 	gcc -std=c99 -fopenmp -o ptsm ptsm.c
-	time ./ptsm $(p) $(t) cities$(p).txt
+	time ./ptsm $(p) $(t) input/cities$(p).txt
