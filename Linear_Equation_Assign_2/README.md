@@ -3,9 +3,15 @@
 1. make e=number_of_unknowns n=number_of_prccesses
 
 ## Table 1
-The tables shown below is about time taken for both the problem of size 10, 100 , 1000 and 10000 unknowns would take with varied number of process. Time mentioned is real line obtained by time command. *<small> averaged over (~5) times. <small>
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+Table shown below is about time taken for the problem of size 10, 100, 1000 and 10000 unknowns with varied number of processes. Time mentioned is real line obtained by time command. *<small> averaged over (~5) times. <small>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Num Cities | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 20 | 30 |
+|5|0.009| 0.012| 0.012| 0.01| 0.01| 0.01| 0.01| 0.01| 0.01| 0.011| 0.01| 0.011|
+|6|0.01| 0.01| 0.01| 0.01| 0.012| 0.01| 0.011| 0.011| 0.01| 0.012| 0.01| 0.011|
+|7|0.008| 0.01| 0.011| 0.011| 0.01| 0.01| 0.01| 0.009| 0.01| 0.01| 0.01| 0.009|
+|8|0.009| 0.01| 0.01| 0.01| 0.01| 0.01| 0.01| 0.01| 0.009| 0.009| 0.01| 0.011|
+|9|0.011| 0.011| 0.011| 0.01| 0.009| 0.012| 0.012| 0.011| 0.01| 0.01| 0.01| 0.01|
+|10|0.015| 0.013| 0.012| 0.013| 0.012| 0.011| 0.01| 0.01| 0.01| 0.01| 0.01| 0.011|
+|11|0.084| 0.051| 0.042| 0.032| 0.04| 0.026| 0.027| 0.026| 0.026| 0.026| 0.019| 0.02|
+|12|0.653| 0.358| 0.248| 0.197| 0.316| 0.136| 0.14| 0.139| 0.138| 0.131| 0.077| 0.078|
